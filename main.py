@@ -15,7 +15,7 @@ import time
 import argparse
 from torch.utils.data import DataLoader
 from datasets.datasets import MyDataset, Data_embedding
-from model.ResNet import DG_WSDH
+from model.DG_WSDH import DG_WSDH
 from torch.optim.lr_scheduler import OneCycleLR, MultiStepLR
 from tqdm import tqdm
 from collections import defaultdict
