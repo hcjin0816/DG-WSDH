@@ -37,7 +37,7 @@ The format of the label file of the original dataset can refer to `DG_WSDH/csv/e
 
 # Train and test
 
-### train
+### train/test
 
 ```
 python main.py
