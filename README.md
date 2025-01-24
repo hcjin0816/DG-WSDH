@@ -44,4 +44,19 @@ python main.py
 ```
 
 # Retrieval
-Patch labels need to be constructed based on the dataset with detailed labeling files, and the label file format of the patch dataset can be referred to “DG_WSDH/csv/example/sheet/patch_label.csv”:
+Patch labels need to be constructed based on the dataset with detailed labeling files, and the label file format of the patch dataset can be referred to `DG_WSDH/csv/example/sheet/patch_label.csv`:
+
+
+### Store hash codes
+
+```
+cd retrieval
+python store_hashcodes.py
+```
+
+### retrieval hashcodes
+
+```
+cd retrieval
+python wsi_retrieval.py
+```
