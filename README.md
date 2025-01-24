@@ -17,11 +17,11 @@ cd pre
 python run_preprocess.py
 ```
 The storage format of the original data set can refer to the sample data set in `MRAN/WSI/example ` : 
-> DG_WSDH/WSI/dataset_name/\*/slide-idx1.svs
+> DG_WSDH/WSI/dataset_name/\*/slide-1.svs
 > 
 > ...
 > 
-> DG_WSDH/WSI/dataset_name/\*/slide-idxn.svs
+> DG_WSDH/WSI/dataset_name/\*/slide-n.svs
 
 ### Divide the dataset
 ```
