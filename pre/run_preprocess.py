@@ -9,7 +9,7 @@ root_dir = os.path.abspath(os.path.join(os.getcwd(), ".."))  # xxx/MRAN
 
 parser = argparse.ArgumentParser(description='preprocess')
 parser.add_argument('--save_dir', type=str, default='csv/example/loc/', help='directory to save csv file')
-parser.add_argument('--dataset_dir', type=str, default='/data_wsi/TCGA-LUSC', help='svs datasets storage directory')
+parser.add_argument('--dataset_dir', type=str, default='/WSI/example/', help='svs datasets storage directory')
 
 if __name__ == '__main__':
     args = parser.parse_args()
