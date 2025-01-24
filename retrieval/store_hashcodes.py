@@ -14,7 +14,7 @@ import torchmetrics
 import time
 from torch.utils.data import DataLoader
 from datasets.datasets import MyDataset, Data_embedding
-from Ablation.DG_WSDH.model.ResNet import DG_WSDH
+from DG_WSDH.model.ResNet import DG_WSDH
 from tqdm import tqdm
 from collections import defaultdict
 
