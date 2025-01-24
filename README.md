@@ -42,10 +42,4 @@ The format of the label file of the original dataset can refer to `DG_WSDH/csv/e
 ```
 python main.py
 ```
-`main.yaml` is used to set parameters.
-
-### test
-```
-python test.py
-```
 
