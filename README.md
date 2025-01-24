@@ -22,3 +22,9 @@ The storage format of the original data set can refer to the sample data set in 
 > ...
 > 
 > DG_WSDH/WSI/dataset_name/\*/slide-idxn.svs
+
+### Divide the dataset
+```
+cd pre
+python pro_csv.py
+```
