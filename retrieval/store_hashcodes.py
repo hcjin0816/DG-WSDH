@@ -14,7 +14,7 @@ import torchmetrics
 import time
 from torch.utils.data import DataLoader
 from datasets.datasets_retrieval import MyDataset, Data_embedding
-from DG_WSDH.model.ResNet import DG_WSDH
+from DG_WSDHretrieval.model.ResNet import DG_WSDH
 from tqdm import tqdm
 from collections import defaultdict
 
