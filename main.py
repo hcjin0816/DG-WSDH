@@ -1,6 +1,6 @@
 import sys
 import os
-root_dir = os.path.abspath(os.getcwd())  # xxx/MRAN
+root_dir = os.path.abspath(os.getcwd())  # xxx/DG_WSDH
 sys.path.append(root_dir)
 
 
