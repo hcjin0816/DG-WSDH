@@ -80,7 +80,7 @@ class MyDataset(torch.utils.data.Dataset):
             patch_alpha_i = torch.tensor(self.patch_alpha[key_patch_alpha])
 
         return img.type(dtype=torch.float32), self.wsi_id[index], self.bag_id[index], self.label[index], self.li_path[
-            index], torch.tensor(self.up_weight[self.li_path[index]]), index, patch_alpha_i, self.wsi_path[index].split('/')[-1][:-4]
+            index], torch.tensor(self.up_weight[self.li_path[index]]), index, patch_alpha_i, torch.tensor(self.Patch_label[index]),self.wsi_path[index].split('/')[-1][:-4]
 
     def __len__(self):
         return self.num_bag
