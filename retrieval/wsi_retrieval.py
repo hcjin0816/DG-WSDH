@@ -13,10 +13,10 @@ import torchmetrics
 import time
 from torch.utils.data import DataLoader
 from datasets.datasets import MyDataset, Data_embedding
-from Ablation.DG_WSDH.model.ResNet import DG_WSDH
+from DG_WSDH.model.ResNet import DG_WSDH
 from tqdm import tqdm
 from collections import defaultdict
-from Ablation.DG_WSDH.utils.func import average_precision_patch, label_patch_create
+from DG_WSDH.utils.func import average_precision_patch, label_patch_create
 
 cudnn.benchmark = True  ##
 parser = argparse.ArgumentParser(description='train')
