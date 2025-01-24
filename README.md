@@ -28,3 +28,24 @@ The storage format of the original data set can refer to the sample data set in 
 cd pre
 python pro_csv.py
 ```
+The format of the label file of the original dataset can refer to `DG_WSDH/csv/example/sheet/total.csv`:
+| File Name | Sample Type |
+|--|--|
+| slide-1.svs | Primary Tumor |
+| slide-2.svs |Solid Tissue Normal  |
+|....|...|
+
+# Train and test
+
+### train
+
+```
+python main.py
+```
+`main.yaml` is used to set parameters.
+
+### test
+```
+python test.py
+```
+
