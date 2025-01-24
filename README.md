@@ -11,7 +11,7 @@ conda activate DG_WSDH
 ### Process raw pathology images
 Sample dataset download: [Link 1](https://drive.google.com/file/d/13Fb2U59KiXnhqLfjSwgZ3Vpr2uBf7c2I/view?usp=sharing) [Link 2](https://pan.baidu.com/s/1C-xuMsTrVKLYyEGONUocwg?pwd=pz75) 
 
-After downloading, extract `example.zip` to the `MRAN/WSI/` directory, then preprocess the original image:
+After downloading, extract `example.zip` to the `DG_WSDH/WSI/` directory, then preprocess the original image:
 ```
 cd pre
 python run_preprocess.py
