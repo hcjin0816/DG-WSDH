@@ -16,7 +16,7 @@ After downloading, extract `example.zip` to the `DG_WSDH/WSI/` directory, then p
 cd pre
 python run_preprocess.py
 ```
-The storage format of the original data set can refer to the sample data set in `MRAN/WSI/example ` : 
+The storage format of the original data set can refer to the sample data set in `DG_WSDH/WSI/example ` : 
 > DG_WSDH/WSI/dataset_name/\*/slide-1.svs
 > 
 > ...
@@ -43,3 +43,5 @@ The format of the label file of the original dataset can refer to `DG_WSDH/csv/e
 python main.py
 ```
 
+# Retrieval
+Patch labels need to be constructed based on the dataset with detailed labeling files, and the label file format of the patch dataset can be referred to “DG_WSDH/csv/example/sheet/patch_label.csv”:
