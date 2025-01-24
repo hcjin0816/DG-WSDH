@@ -133,7 +133,7 @@ def test_branch_I_evaluate(test_loader, model, epoch):
                 tqdm(test_loader, desc=f'train_{epoch}')):
             img = img.cuda()
             label = label.cuda()
-            # ResNet中需要将tanh换成取符函数，生产二进制哈希码进行存储
+            # ResNet中需要将tanh换成sign函数，生成二进制哈希码进行存储
             y, embedding, alpha, _1, beta, _3, hashcodes = model(img, tag=0, epoch=epoch)  # y: n*2 embedding : n * 512 alpha : n * 64
             loss = F.cross_entropy(y, label, reduction='mean')
             total_loss += loss.item()
