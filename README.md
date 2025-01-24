@@ -54,7 +54,7 @@ cd retrieval
 python store_hashcodes.py
 ```
 
-### retrieval hashcodes
+### retrieval hash codes
 
 ```
 cd retrieval
